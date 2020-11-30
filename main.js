@@ -2,9 +2,10 @@ const app = Vue.createApp({
   data() {
       return {
           product: 'Socks',
-          // Solution
-          description: 'A warm fuzzy pair of socks.' 
-          // Solution
+          image: './assets/socks_green.jpg',
+            // solution
+            url: 'https://github.com/Shjani49/Vue3_JS_Example'
+            // solution
       }
   }
 })
