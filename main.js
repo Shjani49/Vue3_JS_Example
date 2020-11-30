@@ -3,8 +3,9 @@ const app = Vue.createApp({
       return {
           product: 'Socks',
           image: './assets/vmSocks-blue.jpg',
+          inventory: 100,
             // solution
-            url: 'https://github.com/Shjani49/Vue3_JS_Example'
+            onSale: true
             // solution
       }
   }
